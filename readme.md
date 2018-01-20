@@ -50,6 +50,38 @@ $ python3 eval.py --logtostderr --checkpoint_dir=./training \
 --eval_dir=./eval --pipeline_config_path=./training/pipeline.config
 ```
 
+### Requirement
+|Package|
+|-------|
+| python >= 3.4 (tested on python 3.4.1) |
+| tqdm |
+| protobuf-compiler |
+| python-pil |
+| python-lxml |
+| tensorflow >= 1.3 |
+| glob |
+| pandas |
+| numpy |
+
+```sh
+$ pip3 install numpy pandas jupyter matplotlib tqdm glob
+# CPU ver
+$ pip3 install tensorflow
+# GPU ver
+$ pip3 install tensorflow-gpu
+$ sudo apt-get install protobuf-compiler python-pil python-lxml
+```
+or
+
+```sh
+$ pip3 install numpy pandas jupyter matplotlib lxml pillow tqdm glob
+# CPU ver
+$ pip3 install tensorflow
+# GPU ver
+$ pip3 install tensorflow-gpu
+$ sudo apt-get install protobuf-compiler
+```
+
 ### Resource
 xml_to_csv.py and generate_tfrecord.py source: [datitran's repo](https://github.com/datitran/raccoon_dataset)
 [tensorflow models](https://github.com/tensorflow/models)
