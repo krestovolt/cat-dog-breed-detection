@@ -28,7 +28,7 @@ $ python3 generate_tfrecord.py --csv_input=data/test_labels.csv  --output_path=d
 ```
 
 - after that, copy folder: ./training; ./data; ./eval; to models/research/object_detection
-- also put your fine tune checkpoint to models/research/object_detection, or change the 'fine_tune_checkpoint' value in breed_detect.config
+- also put your fine tune checkpoint to models/research/object_detection, or change the 'fine_tune_checkpoint' value in breed_detect.config  
 *note: this is assuming the working directory is in this project folder root
 
 ### Training
@@ -83,9 +83,9 @@ $ sudo apt-get install protobuf-compiler
 ```
 
 ### Resource
-[Generated TFRecord file](https://www.dropbox.com/sh/cp6ruurl3jeeua9/AAA-0eDo2QY27B8IDLq2vGK6a?dl=0)
-xml_to_csv.py and generate_tfrecord.py source: [datitran's repo](https://github.com/datitran/raccoon_dataset)
-[tensorflow models](https://github.com/tensorflow/models)
-[tf object detection api](https://github.com/tensorflow/models/tree/master/research/object_detection)
-[SSD(Single Shot Detector)](https://arxiv.org/abs/1512.02325)
-[MobileNets](https://arxiv.org/abs/1704.04861)
+[Generated TFRecord file](https://www.dropbox.com/sh/cp6ruurl3jeeua9/AAA-0eDo2QY27B8IDLq2vGK6a?dl=0)  
+xml_to_csv.py and generate_tfrecord.py source: [datitran's repo](https://github.com/datitran/raccoon_dataset)  
+[tensorflow models](https://github.com/tensorflow/models)  
+[tf object detection api](https://github.com/tensorflow/models/tree/master/research/object_detection)  
+[SSD(Single Shot Detector)](https://arxiv.org/abs/1512.02325)  
+[MobileNets](https://arxiv.org/abs/1704.04861)  
