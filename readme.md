@@ -29,7 +29,7 @@ $ python3 generate_tfrecord.py --csv_input=data/test_labels.csv  --output_path=d
 
 - after that, copy folder: ./training; ./data; ./eval; to models/research/object_detection
 - also put your fine tune checkpoint to models/research/object_detection, or change the 'fine_tune_checkpoint' value in breed_detect.config
-*note: this assuming the working directory is inside this project folder root
+*note: this is assuming the working directory is in this project folder root
 
 ### Training
 ```py
