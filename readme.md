@@ -83,6 +83,7 @@ $ sudo apt-get install protobuf-compiler
 ```
 
 ### Resource
+[Generated TFRecord file](https://www.dropbox.com/sh/cp6ruurl3jeeua9/AAA-0eDo2QY27B8IDLq2vGK6a?dl=0)
 xml_to_csv.py and generate_tfrecord.py source: [datitran's repo](https://github.com/datitran/raccoon_dataset)
 [tensorflow models](https://github.com/tensorflow/models)
 [tf object detection api](https://github.com/tensorflow/models/tree/master/research/object_detection)
